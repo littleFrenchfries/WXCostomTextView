@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WXCostomTextView_Example' do
+  pod 'WXCostomTextView', :path => '../'
+
+  target 'WXCostomTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
