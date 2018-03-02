@@ -27,3 +27,4 @@ littleFrenchfries, 875368765@qq.com
 ## License
 
 WXCostomTextView is available under the MIT license. See the LICENSE file for more info.
+WXCostomTextView is a good pod
