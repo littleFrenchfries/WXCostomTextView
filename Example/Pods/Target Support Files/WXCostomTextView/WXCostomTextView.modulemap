@@ -1,0 +1,6 @@
+framework module WXCostomTextView {
+  umbrella header "WXCostomTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

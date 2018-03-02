@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F3D91AA740F7CF3825C513905C68D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C343BC000F61ED9DA291651BCEF3C5A /* CustomTxtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B909D155DA282D00A85F17C757577D /* CustomTxtView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BFE71A9AAFFC5A39B613176D98D718D /* WXCostomTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B25FDE51C31E41BE369FBD968FCB095 /* WXCostomTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C3554FA02624A2BD3E049CD93A1617 /* Pods-WXCostomTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA65C9347F1C4A3990D9F4D4F39C136 /* Pods-WXCostomTextView_Example-dummy.m */; };
+		6E496ECBD5505166E155DA01257330EB /* Pods-WXCostomTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633CE9A06DCF5FBEFAF313122A25195D /* Pods-WXCostomTextView_Tests-dummy.m */; };
+		9E3640BCBA307828581793A496BDA4D3 /* WXCostomTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8175C2EAB7D790872D64D5D068FCDB /* WXCostomTextView-dummy.m */; };
+		AC4E547CA36CC73196EB5E36501ADCF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B346167A3694B657517B204376E197F0 /* Pods-WXCostomTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB2A60E7DC43FA1E8CEC0F5C4B75B50 /* Pods-WXCostomTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB936CFFB22C8BE77F26427E68D79C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FBD43865D8E92E121AC9FD4F13DC8AA7 /* CustomTxtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E054930438F8B03011700EDB377670D /* CustomTxtView.m */; };
+		FEEDAE8C326F9EC90A10B2DEDF574F8A /* Pods-WXCostomTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E4C86FB0C849379BCABDC88A9E0D5D /* Pods-WXCostomTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCB0C8D4F0D96A8EFF962C252282F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3625A4B6AD9E92B1705CEF30A5E8DD;
+			remoteInfo = WXCostomTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044190A28DD7A58571BE154458D7AE79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11575D5C120CF9D0C1461B2CAC62754E /* Pods-WXCostomTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXCostomTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		139C2AD0B0558C0075072BC56AE47D83 /* Pods-WXCostomTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXCostomTextView_Example.modulemap"; sourceTree = "<group>"; };
+		15E4C86FB0C849379BCABDC88A9E0D5D /* Pods-WXCostomTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXCostomTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		19B909D155DA282D00A85F17C757577D /* CustomTxtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomTxtView.h; path = WXCostomTextView/Classes/CustomTxtView.h; sourceTree = "<group>"; };
+		1E054930438F8B03011700EDB377670D /* CustomTxtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomTxtView.m; path = WXCostomTextView/Classes/CustomTxtView.m; sourceTree = "<group>"; };
+		22B591886B5788484EE61A0282C98421 /* Pods-WXCostomTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXCostomTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		27DA4816943D82716A9E34CC37D0F9EB /* Pods-WXCostomTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXCostomTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D955B513231673311E48991D17EE017 /* WXCostomTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXCostomTextView.xcconfig; sourceTree = "<group>"; };
+		359A6FF95515E4BA9DF60DD55C08A34A /* Pods-WXCostomTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXCostomTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		35CDC34F43F6758E6070BEC53407DADE /* Pods-WXCostomTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXCostomTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4827FF25677A4D701AE6A152EC09BF28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		603DA2C80EE281338B28EAB84EFDDF3B /* Pods_WXCostomTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXCostomTextView_Tests.framework; path = "Pods-WXCostomTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633CE9A06DCF5FBEFAF313122A25195D /* Pods-WXCostomTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXCostomTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6652EC0DC9764DC933F8C3E668A09CC7 /* Pods-WXCostomTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXCostomTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B25FDE51C31E41BE369FBD968FCB095 /* WXCostomTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXCostomTextView-umbrella.h"; sourceTree = "<group>"; };
+		6BEB6012C82BA5EE96B5D08305F1074D /* WXCostomTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXCostomTextView-prefix.pch"; sourceTree = "<group>"; };
+		6D87302DE2DD9A4E32CAC4B3254785D8 /* WXCostomTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXCostomTextView.modulemap; sourceTree = "<group>"; };
+		7BC0CE594B36C3A30D6C5D177DD11E99 /* Pods-WXCostomTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXCostomTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB2A60E7DC43FA1E8CEC0F5C4B75B50 /* Pods-WXCostomTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXCostomTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		83351886FAA93DEEF5CE82535E9F953D /* Pods-WXCostomTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXCostomTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91B1E375D1BB7FF913DA49E9A7FDFE11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFC752B04ADF4AFBF7E11E8D4A3C1AC /* Pods-WXCostomTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXCostomTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B67061F7405EAD3B02CF2B5E28D1F5EF /* Pods_WXCostomTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXCostomTextView_Example.framework; path = "Pods-WXCostomTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B700D79F9CB23DAFD5DFBF61B60D2F80 /* Pods-WXCostomTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXCostomTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B768460E2831D8B46EEEDF722DB47CEB /* WXCostomTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WXCostomTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B94ED5B0A4BA7FAA4D7B03BF683136EC /* Pods-WXCostomTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXCostomTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		C2D4338A8A1A9F73642011C15179C021 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE93ECDEC8B7E090EB1F1F7CD27DB0C1 /* Pods-WXCostomTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXCostomTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4DDCFEF284E4C5A45BCB775FF5B1B9E /* Pods-WXCostomTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXCostomTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCA65C9347F1C4A3990D9F4D4F39C136 /* Pods-WXCostomTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXCostomTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		E70EAC8638DA61E56E7BD246A9DD4F5B /* WXCostomTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WXCostomTextView.framework; path = WXCostomTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8175C2EAB7D790872D64D5D068FCDB /* WXCostomTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXCostomTextView-dummy.m"; sourceTree = "<group>"; };
+		F98F1E19A2F0368BC5C665437FFEF169 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E1DF87CD495C6206AAC9C50EECCB07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E547CA36CC73196EB5E36501ADCF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734912931CAEF746D3473BF5E9B82451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB936CFFB22C8BE77F26427E68D79C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9F57DA59F8D6C78E64A629C10D69EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F3D91AA740F7CF3825C513905C68D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F12A5DE40503215B970067D6519B610 /* WXCostomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				19B909D155DA282D00A85F17C757577D /* CustomTxtView.h */,
+				1E054930438F8B03011700EDB377670D /* CustomTxtView.m */,
+				BCD8A59F8EBDD1073F072A41AAD35765 /* Pod */,
+				FA09C5DBB5A219FE36B06B526901316E /* Support Files */,
+			);
+			name = WXCostomTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5DE3811144199A8A068565003861CAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67061F7405EAD3B02CF2B5E28D1F5EF /* Pods_WXCostomTextView_Example.framework */,
+				603DA2C80EE281338B28EAB84EFDDF3B /* Pods_WXCostomTextView_Tests.framework */,
+				E70EAC8638DA61E56E7BD246A9DD4F5B /* WXCostomTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1F84C3D1F5F0F04B89F762F77A7178 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F12A5DE40503215B970067D6519B610 /* WXCostomTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6A1F84C3D1F5F0F04B89F762F77A7178 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5DE3811144199A8A068565003861CAC9 /* Products */,
+				DD9A92873C4F5F2A47827C83DCE50D4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD8A59F8EBDD1073F072A41AAD35765 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4827FF25677A4D701AE6A152EC09BF28 /* LICENSE */,
+				F98F1E19A2F0368BC5C665437FFEF169 /* README.md */,
+				B768460E2831D8B46EEEDF722DB47CEB /* WXCostomTextView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CBA774818D37F588DCF87C64D2069648 /* Pods-WXCostomTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91B1E375D1BB7FF913DA49E9A7FDFE11 /* Info.plist */,
+				359A6FF95515E4BA9DF60DD55C08A34A /* Pods-WXCostomTextView_Tests.modulemap */,
+				27DA4816943D82716A9E34CC37D0F9EB /* Pods-WXCostomTextView_Tests-acknowledgements.markdown */,
+				9FFC752B04ADF4AFBF7E11E8D4A3C1AC /* Pods-WXCostomTextView_Tests-acknowledgements.plist */,
+				633CE9A06DCF5FBEFAF313122A25195D /* Pods-WXCostomTextView_Tests-dummy.m */,
+				35CDC34F43F6758E6070BEC53407DADE /* Pods-WXCostomTextView_Tests-frameworks.sh */,
+				22B591886B5788484EE61A0282C98421 /* Pods-WXCostomTextView_Tests-resources.sh */,
+				7CB2A60E7DC43FA1E8CEC0F5C4B75B50 /* Pods-WXCostomTextView_Tests-umbrella.h */,
+				83351886FAA93DEEF5CE82535E9F953D /* Pods-WXCostomTextView_Tests.debug.xcconfig */,
+				D4DDCFEF284E4C5A45BCB775FF5B1B9E /* Pods-WXCostomTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-WXCostomTextView_Tests";
+			path = "Target Support Files/Pods-WXCostomTextView_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD9A92873C4F5F2A47827C83DCE50D4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5BA0A7E80AD181D7E1E494BD5B166 /* Pods-WXCostomTextView_Example */,
+				CBA774818D37F588DCF87C64D2069648 /* Pods-WXCostomTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFE5BA0A7E80AD181D7E1E494BD5B166 /* Pods-WXCostomTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4338A8A1A9F73642011C15179C021 /* Info.plist */,
+				139C2AD0B0558C0075072BC56AE47D83 /* Pods-WXCostomTextView_Example.modulemap */,
+				B700D79F9CB23DAFD5DFBF61B60D2F80 /* Pods-WXCostomTextView_Example-acknowledgements.markdown */,
+				7BC0CE594B36C3A30D6C5D177DD11E99 /* Pods-WXCostomTextView_Example-acknowledgements.plist */,
+				DCA65C9347F1C4A3990D9F4D4F39C136 /* Pods-WXCostomTextView_Example-dummy.m */,
+				CE93ECDEC8B7E090EB1F1F7CD27DB0C1 /* Pods-WXCostomTextView_Example-frameworks.sh */,
+				B94ED5B0A4BA7FAA4D7B03BF683136EC /* Pods-WXCostomTextView_Example-resources.sh */,
+				15E4C86FB0C849379BCABDC88A9E0D5D /* Pods-WXCostomTextView_Example-umbrella.h */,
+				6652EC0DC9764DC933F8C3E668A09CC7 /* Pods-WXCostomTextView_Example.debug.xcconfig */,
+				11575D5C120CF9D0C1461B2CAC62754E /* Pods-WXCostomTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-WXCostomTextView_Example";
+			path = "Target Support Files/Pods-WXCostomTextView_Example";
+			sourceTree = "<group>";
+		};
+		FA09C5DBB5A219FE36B06B526901316E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				044190A28DD7A58571BE154458D7AE79 /* Info.plist */,
+				6D87302DE2DD9A4E32CAC4B3254785D8 /* WXCostomTextView.modulemap */,
+				2D955B513231673311E48991D17EE017 /* WXCostomTextView.xcconfig */,
+				ED8175C2EAB7D790872D64D5D068FCDB /* WXCostomTextView-dummy.m */,
+				6BEB6012C82BA5EE96B5D08305F1074D /* WXCostomTextView-prefix.pch */,
+				6B25FDE51C31E41BE369FBD968FCB095 /* WXCostomTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WXCostomTextView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD01648099D38829269AAF07A89DA48F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDAE8C326F9EC90A10B2DEDF574F8A /* Pods-WXCostomTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED414EF94CCEA42635A6015A0D6F48C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C343BC000F61ED9DA291651BCEF3C5A /* CustomTxtView.h in Headers */,
+				3BFE71A9AAFFC5A39B613176D98D718D /* WXCostomTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48928D36FB3F11A0F0E061473F0F113 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B346167A3694B657517B204376E197F0 /* Pods-WXCostomTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2836894E5D430FC3529052CF3BBCE0BF /* Pods-WXCostomTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01F5CE335B19ADF74A84414095630D3 /* Build configuration list for PBXNativeTarget "Pods-WXCostomTextView_Tests" */;
+			buildPhases = (
+				F0C7C47D17664CFB64013431F3EFA1AE /* Sources */,
+				3E1DF87CD495C6206AAC9C50EECCB07E /* Frameworks */,
+				F48928D36FB3F11A0F0E061473F0F113 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WXCostomTextView_Tests";
+			productName = "Pods-WXCostomTextView_Tests";
+			productReference = 603DA2C80EE281338B28EAB84EFDDF3B /* Pods_WXCostomTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		370E7075D92775276C408ECFEA0644EB /* Pods-WXCostomTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1CD54537D8759E24116FAAD8910B918 /* Build configuration list for PBXNativeTarget "Pods-WXCostomTextView_Example" */;
+			buildPhases = (
+				356D203A0FFDA4006168DD30709FD483 /* Sources */,
+				734912931CAEF746D3473BF5E9B82451 /* Frameworks */,
+				DD01648099D38829269AAF07A89DA48F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1E1633344629B7344B979CF0B69534 /* PBXTargetDependency */,
+			);
+			name = "Pods-WXCostomTextView_Example";
+			productName = "Pods-WXCostomTextView_Example";
+			productReference = B67061F7405EAD3B02CF2B5E28D1F5EF /* Pods_WXCostomTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC3625A4B6AD9E92B1705CEF30A5E8DD /* WXCostomTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78582A77ADED8380F609084BD37D2EDC /* Build configuration list for PBXNativeTarget "WXCostomTextView" */;
+			buildPhases = (
+				2EA38BB18D9AF4E42B203ECDD88FDBB6 /* Sources */,
+				AC9F57DA59F8D6C78E64A629C10D69EA /* Frameworks */,
+				ED414EF94CCEA42635A6015A0D6F48C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXCostomTextView;
+			productName = WXCostomTextView;
+			productReference = E70EAC8638DA61E56E7BD246A9DD4F5B /* WXCostomTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5DE3811144199A8A068565003861CAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370E7075D92775276C408ECFEA0644EB /* Pods-WXCostomTextView_Example */,
+				2836894E5D430FC3529052CF3BBCE0BF /* Pods-WXCostomTextView_Tests */,
+				EC3625A4B6AD9E92B1705CEF30A5E8DD /* WXCostomTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA38BB18D9AF4E42B203ECDD88FDBB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD43865D8E92E121AC9FD4F13DC8AA7 /* CustomTxtView.m in Sources */,
+				9E3640BCBA307828581793A496BDA4D3 /* WXCostomTextView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356D203A0FFDA4006168DD30709FD483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C3554FA02624A2BD3E049CD93A1617 /* Pods-WXCostomTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C7C47D17664CFB64013431F3EFA1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E496ECBD5505166E155DA01257330EB /* Pods-WXCostomTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1E1633344629B7344B979CF0B69534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXCostomTextView;
+			target = EC3625A4B6AD9E92B1705CEF30A5E8DD /* WXCostomTextView */;
+			targetProxy = DFCB0C8D4F0D96A8EFF962C252282F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1940E52B0F04FCDE2975D5CB8778AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6652EC0DC9764DC933F8C3E668A09CC7 /* Pods-WXCostomTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXCostomTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXCostomTextView_Example/Pods-WXCostomTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WXCostomTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CB5CD73663D57CE55F63428004B8370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D955B513231673311E48991D17EE017 /* WXCostomTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXCostomTextView/WXCostomTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXCostomTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXCostomTextView/WXCostomTextView.modulemap";
+				PRODUCT_NAME = WXCostomTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57D8AC55B53F58DF5EDBD6AF1814BDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DDCFEF284E4C5A45BCB775FF5B1B9E /* Pods-WXCostomTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXCostomTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXCostomTextView_Tests/Pods-WXCostomTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WXCostomTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94114F3B20E7A11FC8655A923E293148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D955B513231673311E48991D17EE017 /* WXCostomTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXCostomTextView/WXCostomTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXCostomTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXCostomTextView/WXCostomTextView.modulemap";
+				PRODUCT_NAME = WXCostomTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9ED2AD85206CC7260974CFE741873722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83351886FAA93DEEF5CE82535E9F953D /* Pods-WXCostomTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXCostomTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXCostomTextView_Tests/Pods-WXCostomTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WXCostomTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0AA186817B7C477FACFFD3243595E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11575D5C120CF9D0C1461B2CAC62754E /* Pods-WXCostomTextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXCostomTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXCostomTextView_Example/Pods-WXCostomTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WXCostomTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78582A77ADED8380F609084BD37D2EDC /* Build configuration list for PBXNativeTarget "WXCostomTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94114F3B20E7A11FC8655A923E293148 /* Debug */,
+				2CB5CD73663D57CE55F63428004B8370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01F5CE335B19ADF74A84414095630D3 /* Build configuration list for PBXNativeTarget "Pods-WXCostomTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED2AD85206CC7260974CFE741873722 /* Debug */,
+				57D8AC55B53F58DF5EDBD6AF1814BDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1CD54537D8759E24116FAAD8910B918 /* Build configuration list for PBXNativeTarget "Pods-WXCostomTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1940E52B0F04FCDE2975D5CB8778AE54 /* Debug */,
+				F0AA186817B7C477FACFFD3243595E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

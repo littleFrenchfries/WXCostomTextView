@@ -1,0 +1,16 @@
+PODS:
+  - WXCostomTextView (0.1.0)
+
+DEPENDENCIES:
+  - WXCostomTextView (from `../`)
+
+EXTERNAL SOURCES:
+  WXCostomTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WXCostomTextView: 9a39b68393ec4ab0d42cfc09ad82dec4ed327dff
+
+PODFILE CHECKSUM: 1875620b827ceeff74008c9afb3bc393b17669a6
+
+COCOAPODS: 1.4.0
